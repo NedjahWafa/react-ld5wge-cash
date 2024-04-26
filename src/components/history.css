@@ -1,0 +1,55 @@
+/* History Page */
+.history-container {
+  padding: 20px;
+}
+
+/* History Header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.history-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Search Bar */
+.search-bar {
+  flex: 1;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Section Buttons */
+.history-sections {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.section-button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.section-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.section-button:hover {
+  background-color: #ddd;
+}
